@@ -1,0 +1,50 @@
+.prices
+    height: auto
+    margin-bottom: 20px
+    li
+        display: flex
+        list-style-type: none
+        line-height: 2em
+        cursor: pointer
+    ul li:nth-child(odd)
+        background-color: rgba(239, 215, 214, 0.30)
+
+        border-radius: 15px
+    &_title
+        text-align: center
+        text-transform: uppercase
+        color: #A92B26
+        font-size: 1.2em
+        font-weight: 600
+    hr
+        height: 1px
+        color: #A92B26
+    &_service
+        display: flex
+        margin-bottom: 20px
+        margin-top: 20px
+        &_title
+            width: 50%
+            padding-left: 10%
+            text-transform: uppercase
+            color: #A92B26
+            font-weight: 600
+        &_individual-title
+            width: 25%
+            text-transform: uppercase
+            color: #A92B26
+            font-weight: 600
+        &_group-title
+            width: 25%
+            text-transform: uppercase
+            color: #A92B26
+            font-weight: 600
+    &_service_name
+        padding-left: 10%
+        width: 50%
+    &_service_individual
+        font-weight: 400
+        width: 25%
+    &_service_group
+        width: 25%
+        font-weight: 400

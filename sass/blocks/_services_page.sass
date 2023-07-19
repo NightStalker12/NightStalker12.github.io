@@ -1,0 +1,69 @@
+.services
+    height: auto
+    padding-bottom: 20px
+    hr
+        color: #A92B26
+        height: 1px
+    ul
+        list-style: none
+    .col-4
+        overflow-y: auto
+    &_side_menu
+        border-top: 1px solid #EFD7D6
+        border-bottom: 1px solid #EFD7D6
+        list-style: none
+        line-height: 2em
+        padding-left: 0
+        height: 70vh
+        overflow-y: auto
+        &::-webkit-scrollbar 
+            width: 5px
+
+
+        &::-webkit-scrollbar-thumb 
+            background-color: #A92B26
+            border-radius: 4px
+
+        li
+            padding-left: 5%
+            color: #711F1C
+            cursor: pointer
+            font-weight: 500
+            &:hover
+                width: 100%
+                background-color: #EFD7D6
+                border-radius: 15px 0 0 15px
+                
+
+        &_block_name
+            background: linear-gradient(134deg, #C73630 0%, rgba(97, 54, 54, 0.76) 100%)
+            background-clip: text
+            -webkit-background-clip: text
+            -webkit-text-fill-color: transparent
+            font-size: 1.2em
+            margin-top: 20px
+            margin-bottom: 20px
+            font-weight: 600
+    &_content
+        height: 100%
+        li
+            list-style-type: disc
+        
+        .hidden
+            display: none
+        
+        &_title
+            margin-top: 20px
+            color: #A92B26
+            font-size: 1.2em
+            margin-bottom: 20px
+        &_text
+            width: 85%
+            text-align: justify
+            text-justify: distribute-all-lines
+        &_price
+            line-height: 3em
+            font-weight: 500
+
+
+
